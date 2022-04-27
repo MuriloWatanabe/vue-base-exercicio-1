@@ -1,6 +1,7 @@
 body {
     margin: 0;
     height: 100vh;
+    background-color: bisque;
 }
 
 #app {
@@ -8,7 +9,7 @@ body {
     display: grid;
     grid-template-columns: 15% 1fr;
     grid-template-rows: 10% auto 10%;
-    grid-template-areas: "header header" "sidenav content" "footer footer";
+    grid-template-areas: "header header" "sidenav content" "footer footer";background-color: bisque;
 }
 
 #header,
@@ -30,6 +31,7 @@ body {
 
 #footer {
     grid-area: footer;
+    background-color: bisque;
 }
 
 #sidenav {
@@ -43,4 +45,5 @@ body {
     border-radius: 15px;
     padding: 20px;
     margin: 10px;
+    background-color: aqua;
 }

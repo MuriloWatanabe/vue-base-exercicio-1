@@ -10,8 +10,10 @@ export default {
   <MenuLateral />
   <PrincipalComp />
   <BlocoPrincipal />
-  <header id="header">Cabeçalho</header>
-  <main id="content">Principal</main>
+  <header id="header">
+    <h1>Cabeçalho</h1>
+  </header>
+  <main id="content"></main>
   <footer id="footer">Rodapé</footer>
 </template>
 <style></style>
